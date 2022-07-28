@@ -16,22 +16,27 @@ margin:0
      margin-top: 5em;
      max-width: 30em;
      background-color: #FBFBFB;
-     border:solid #C4C4C4 1px;
-
-     
+     border:solid #C4C4C4 1px; 
+     height: 30em;
 }
 .container-left{
     margin: 0 auto 0 0;
     border-radius:0;
-    height: 100%;
+    height: auto;
+    background-color: #FBFBFB;
+    border:solid #C4C4C4 1px; 
 }
 .cont{
-    height: 100%;
-    display: flex;
+    width: 100%;
+    border: solid 1px;
 }
 .logosI{
-    max-width: 8em;
-    height: 3.5em;
+    max-width: 7em;
+    margin: 0 0 0 0;
+}
+.logosIc{
+    margin: auto 0 0 0;
+
 }
 .titles{
     color: #002E60;
@@ -40,10 +45,11 @@ margin:0
 .subtitles{
     color: #002E60;
     font-size: 1.2em;
+    margin: 0;
 }
 .btn{
-    width: 10em;
-    margin:2em auto 1em auto; 
+    width:10em;
+    margin:2em auto 0 auto; 
     background-color: #002E60;
     color: white;
     border: solid #011A42 2px;
@@ -58,7 +64,7 @@ margin:0
     color: white;
 }
 input{
-    margin-bottom: 1em;
+margin: 0;
 
 }
 .form-control{
@@ -83,8 +89,80 @@ a{
 .logosR{
     max-width: 10em;
 }
+.title{
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.clbody{
+    margin-left: 1em;
+    max-width: 30em;
 
-
-div{
+    margin: 0 0 0 0;
+}
+.cbody{
+height: 100%;
+border: solid 1px;
+}
+td{
+    width: 50%;
+    height: 50%;
+}
+.ccarrera{
+    margin: auto auto auto auto;
+    background-color: #002E60;
+    height: 90%;
+    width: 90%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: .5em;
+    color: white;
+    border-radius: .5em;
+}
+.ccarrera:hover{
+    background-color: #0F54A0;
+}
+.tcarreras{
     margin: 0;
+    height: 100%;
+}
+nav{
+    background-color: #002E60;
+    height: 5em;
+
+}
+.fa-bars{
+    color: white;
+    
+}
+.fa-bars:hover{
+    color: white;
+}
+.fa-bars:focus{
+    color: white;
+}
+.btnmenu{
+    border: solid 1px white;
+    border-radius: 1em;
+    width: 4em;
+    height: 3em;
+    margin: 1em 0 0 1em;
+}
+.btnmenu:focus{
+    background-color: #009475;
+}
+.dropdown-item{
+    background-color: #009475;
+    border:solid 1px#075948;
+    color: white;
+    
+
+}
+.dropdown-menu{
+    padding:0;
+    background-color: #009475;
+}
+.bottombtn{
+    width: 100%;
+    border: 1px solid;
+    margin: 9em 0 0 0;
 }

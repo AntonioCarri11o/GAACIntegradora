@@ -1,6 +1,6 @@
-$(document).ready(function(){
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
 
-    var height = $(window).height();
-
-    $('#div2').height(height);
-});
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
