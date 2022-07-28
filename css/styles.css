@@ -22,7 +22,7 @@ margin:0
 .container-left{
     margin: 0 auto 0 0;
     border-radius:0;
-    height: 100%;
+    height: auto;
     background-color: #FBFBFB;
     border:solid #C4C4C4 1px; 
 }
@@ -96,7 +96,7 @@ a{
 .clbody{
     margin-left: 1em;
     max-width: 30em;
-    border: solid 1px;
+
     margin: 0 0 0 0;
 }
 .cbody{
@@ -161,6 +161,8 @@ nav{
     padding:0;
     background-color: #009475;
 }
-.modal{
-height: 5000em;
+.bottombtn{
+    width: 100%;
+    border: 1px solid;
+    margin: 9em 0 0 0;
 }
