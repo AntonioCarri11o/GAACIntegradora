@@ -1,0 +1,90 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+background-color: white;
+border-radius: .5rem;
+width: 35em;
+padding: 1em;
+margin:0
+}
+.container-md{
+     margin-top: 5em;
+     max-width: 30em;
+     background-color: #FBFBFB;
+     border:solid #C4C4C4 1px;
+
+     
+}
+.container-left{
+    margin: 0 auto 0 0;
+    border-radius:0;
+    height: 100%;
+}
+.cont{
+    height: 100%;
+    display: flex;
+}
+.logosI{
+    max-width: 8em;
+    height: 3.5em;
+}
+.titles{
+    color: #002E60;
+    font-size: 1.5em;
+}
+.subtitles{
+    color: #002E60;
+    font-size: 1.2em;
+}
+.btn{
+    width: 10em;
+    margin:2em auto 1em auto; 
+    background-color: #002E60;
+    color: white;
+    border: solid #011A42 2px;
+}
+.btn:hover{
+    background-color: #0F54A0;
+    border: solid #011A42 2px;
+    color: white;
+}
+.btn:focus{
+    background-color: #0F54A0;
+    color: white;
+}
+input{
+    margin-bottom: 1em;
+
+}
+.form-control{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0em;
+    background-color: transparent;
+}
+.form-control:focus{
+    box-shadow: none;
+    background-color: transparent;
+}
+a{
+    text-decoration: none;
+    margin: 0;
+    line-height: 2.5em;
+    color:#002E60;
+}
+.datos{
+    margin-top: 1em;
+}
+.logosR{
+    max-width: 10em;
+}
+
+
+div{
+    margin: 0;
+}
