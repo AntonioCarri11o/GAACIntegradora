@@ -1,6 +1,6 @@
 html,body{
     height: 100%;
-    width: 99.5%;
+    width: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -89,10 +89,6 @@ a{
 .logosR{
     max-width: 10em;
 }
-
-
-
-
 .title{
     margin-top: 1em;
     margin-left: 1em;
@@ -106,4 +102,65 @@ a{
 .cbody{
 height: 100%;
 border: solid 1px;
+}
+td{
+    width: 50%;
+    height: 50%;
+}
+.ccarrera{
+    margin: auto auto auto auto;
+    background-color: #002E60;
+    height: 90%;
+    width: 90%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: .5em;
+    color: white;
+    border-radius: .5em;
+}
+.ccarrera:hover{
+    background-color: #0F54A0;
+}
+.tcarreras{
+    margin: 0;
+    height: 100%;
+}
+nav{
+    background-color: #002E60;
+    height: 5em;
+
+}
+.fa-bars{
+    color: white;
+    
+}
+.fa-bars:hover{
+    color: white;
+}
+.fa-bars:focus{
+    color: white;
+}
+.btnmenu{
+    border: solid 1px white;
+    border-radius: 1em;
+    width: 4em;
+    height: 3em;
+    margin: 1em 0 0 1em;
+}
+.btnmenu:focus{
+    background-color: #009475;
+}
+.dropdown-item{
+    background-color: #009475;
+    border:solid 1px#075948;
+    color: white;
+    
+
+}
+.dropdown-menu{
+    padding:0;
+    background-color: #009475;
+}
+.modal{
+height: 5000em;
 }
