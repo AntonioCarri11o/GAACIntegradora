@@ -26,13 +26,7 @@ margin:2em auto auto auto;
      border:solid #C4C4C4 1px; 
      height: 30em;
 }
-<<<<<<< HEAD
-.container-left{
-    margin: 0 auto 0 0;
-    border-radius:0;
-=======
 .container-right{
->>>>>>> origin/Jessica
     height: 100%;
     background-color: #FBFBFB;
     border:solid #C4C4C4 1px; 
@@ -121,26 +115,8 @@ a{
     max-width: 30em;
     margin: 0 0 0 0;
 }
-<<<<<<< HEAD
-.ctitles{
-    margin: 0;
-    padding: 1em;
-    height: 10%;
-}
-.cbody{
-    padding: 1em;
-    margin: 0;
-height: 75%;
-
-
-}
-.cfoot{
-    height: 15%;
-    display: flex;
-=======
 .crhead{
     margin: 1em 1em auto 1em;
->>>>>>> origin/Jessica
 }
 .height100{
     height: 100%;
@@ -227,11 +203,6 @@ nav{
 }
 .bottombtn{
     width: 100%;
-<<<<<<< HEAD
-    margin: auto 0 2em 0;
-}
-=======
     height: 100%;
     margin: auto 0 0 0;
 }
->>>>>>> origin/Jessica
