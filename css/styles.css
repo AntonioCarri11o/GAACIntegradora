@@ -2,14 +2,15 @@ html,body{
     height: 100%;
     width: 100%;
     margin: 0;
+    padding: 0 0;
 
 }
 .card{
 background-color: white;
 border-radius: .5rem;
 width: 35em;
-padding: 1em;
-margin:0
+padding: 0;
+margin:2em auto auto auto;
 }
 .fullcontainer{
     width: 100%;
@@ -20,7 +21,6 @@ margin:0
 }
 
 .container-md{
-     margin-top: 5em;
      max-width: 30em;
      background-color: #FBFBFB;
      border:solid #C4C4C4 1px; 
@@ -128,6 +128,15 @@ margin: 0 1em 1em 1em;
 .crfoot{
     height: 10%;
     margin:auto 1em 0 1em;
+}
+.cbody{
+    width: 100%;
+    margin: 2em 0 0 0 ;
+    padding: 0 1em;
+}
+.cfoot{
+    width: 100%;
+    margin: auto 0 0 0;
 }
 .tdcr{
 vertical-align: none;
