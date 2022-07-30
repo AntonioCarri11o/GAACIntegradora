@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,26 +9,37 @@
     <link rel="stylesheet" href="/css/styles.css">
     <title>Docente: iniciar seisón</title>
 </head>
-<body>
-    <div class="card container-md"><p class="titles" style="text-align:center; margin: 0 0 2em 0;">Docente</p> </h1>
-        <p class="titles">Correo Institucional</p>
-        <input type="text" class="form-control">
-        <p class="titles">Contraseña</p>
-        
-        <input type="text" class="form-control">
-    
+<body style="height:auto;">
+    <form action="" class="card container-md">
+        <div class="cbody">
+            <p class="titles" style="text-align:center;">Iniciar sesión </p> 
+            <p class="titles">Correo Institucional</p>
+            <input type="text" class="form-control">
+            <p class="titles">Contraseña</p>
+            <input type="text" class="form-control">
+  
+            <label for="validationDefault04" class="form-label"></label>
+            <p class="">Iniciar sesión como</p>
+            <select class="form-select" id="validationDefault04" required>
+              <option>Docente</option>
+              <option>Estudiante</option>
+            </select>
+        </div>
+        <br>
+        <div class="row row-cols-12 cfoot">
             <button class="btn" type="submit">Iniciar sesión</button>
-        
-    
-        <div class="row row-cols-12">
+
+            <a href="#" style="font-size:.8em;">Registrarse</a>
             <div class=" col-8">
                 <img src="/img/Datic.png" class="logosI" style="margin-top: .5em;" alt="">
             </div>
-            <div class="col-4 ">
+            <div class="col-4 " style="text-align:right;">
                 <img src="/img/Logo-utez.png" class="logosI" style="height:auto;" alt="">
             </div>
     
-        </div>
-    
+        </div></form>
+
+
+
 </body>
 </html>
