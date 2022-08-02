@@ -69,7 +69,7 @@ margin:2em auto 0 auto;
 }
 .scont{
     width: 90%;
-    height: 60%;
+    min-height: 60%;
     border: solid 1px #C4C4C4;
     margin: 5em auto 0 auto;
 }
@@ -129,7 +129,6 @@ margin: 0;
     border-radius: 0em;
     background-color: transparent;
     width: 90%;
-    
 }
 .form-control:focus{
     box-shadow: none;
@@ -141,6 +140,51 @@ a{
     line-height: 2.5em;
     color:#002E60;
 }
+  .sidebar {
+    color: #fff;
+  }
+.cardcuat{
+    background-color: #C4C4C4;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    height: 100%;
+    border: 1px solid;
+    border-radius: 1em;
+}
+.cardcuatheader{
+    background-color: #011A42;
+    width: 100%;
+    height: auto;
+    color: white;
+    margin: 0;
+    text-align: center;
+    border-radius: 1em 1em 0 0;
+}
+.colorstatus{
+    width: 1em;
+    height: 1em;
+    border: solid 1px;
+    border-radius: 100%;
+    background-color: red;
+    margin: .2em .5em 0 auto;
+}
+.cardcuatbody{
+
+}
+.btnexpand{
+    width: 80%;
+    height:2em;
+    padding: 0;
+    border: 1px solid #C4C4C4;
+    border-radius: 0;
+    margin: 0;
+}
+.sidebar {
+    position: -webkit-sticky;
+    position: fixed;
+    bottom: 3em;
+    right: 4em;
+  }
 .datos{
     margin-top: 1em;
 }

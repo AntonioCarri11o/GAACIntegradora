@@ -1,0 +1,26 @@
+
+.sidebar p{
+  font-family: "BLOKKNeue-Regular";
+}
+.sidebar {
+  padding: 20px;
+  width: 170px;
+  background-color: #434A54;
+  color: #fff;
+}
+.sidebar h3 {
+  margin: 0;
+}
+.content,
+.sidebar {
+  float: left;
+}
+
+
+/* The sticky */
+.sidebar {
+  position: -webkit-sticky;
+  position: fixed;
+  bottom: 2em;
+  right:1em;
+}
