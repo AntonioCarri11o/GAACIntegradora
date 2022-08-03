@@ -39,34 +39,34 @@
         </nav>
       </header>
       <div class="lesscontainer">
-        <div class="container-fluid scont">
-            <form action="update" method="post" style="margin: 3em 2em 2em 0;">
-                <div class="row">
-                    <div class="col">
-                        <img src="/img/imagen.jpg" style="width:10em;" alt="">
-                        <p></p><p></p>
+        <div class="container-fluid perfili">
+            <form action="update" method="post" style="margin: 3em 2em 2em 0;;">
+                <div style="margin-left: 2em;">
+                    <div class="row">
+                        <img src="/img/imagen.jpg" style="width:8em;">
                     </div>
-                    <div class="col-10" >
+                    <!-- Cuerpo dividido -->
+                    <div>
                         <div class="row" style="border: solid 1px;">
-                            <div class="col" style="display: block;">
-                                <div style="margin: auto 0 auto 0"><p class="subtitles">Nombre(s)</p>
+                            <div class="col-4" style="display: flex;">
+                                <div style="margin: auto 0 auto 0"><p class="subtitles">Nombre</p>
                                 </div>
                             </div>
-                            <input type="text" class="col-10">
+                            <input type="text" class="col">
                         </div>
                         <div class="row" style="border: solid 1px;">
-                            <div class="col" style="display: block;">
+                            <div class="col-4" style="display: flex;">
                                 <div style="margin: auto 0 auto 0"><p class="subtitles">Apellido Paterno</p>
                                 </div>
                             </div>
-                            <input type="text" class="col-10">
+                            <input type="text" class="col">
                         </div>
                         <div class="row" style="border: solid 1px;">
-                            <div class="col" style="display: block;">
+                            <div class="col-4" style="display: flex;">
                                 <div style="margin: auto 0 auto 0"><p class="subtitles">Apellido Materno</p>
                                 </div>
                             </div>
-                            <input type="text" class="col-10">
+                            <input type="text" class="col">
                         </div>
                         <div class="row" style="border: solid 1px;">
                             <div class="col" style="display: block;">
@@ -75,11 +75,12 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="row" style="margin:1em 0 0 0;">
+                        <div class="col-10"><button class="btn" type="submit">Modificar Datos</button></div>
+                    </div>
                 </div>
-                <div class="row" style="margin:1em 0 0 0;">
-                    <div class="col"></div>
-                    <div class="col-10"><button class="btn" type="submit">Modificar Datos</button></div>
-                </div>
+
             </form>
 
         </div>
