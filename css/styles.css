@@ -6,6 +6,7 @@ html,body{
     display: flex;
     flex-direction: row;
 }
+
 header {
     width: 100%;
     position: fixed;
@@ -20,6 +21,14 @@ border-radius: .5rem;
 width: 35em;
 padding: 0;
 margin:2em auto 0 auto;
+}
+.perfili{
+    margin: 0 auto 0 0;    
+    padding-left:0;
+    height: 93.9%;
+    max-width: 45%;
+    background-color: #747474;
+
 }
 .rcarrera{
     margin: auto 0 auto 0;

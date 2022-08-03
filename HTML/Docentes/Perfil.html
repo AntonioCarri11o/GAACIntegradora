@@ -8,6 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/18b617c855.js" crossorigin="anonymous"></script>  
     <link rel="stylesheet" href="/css/styles.css">
+        <style>
+        body{background-image:url(/img/fachadaUTEZBN.jpg); }
+         </style>
 </head>
 <body>
     <header>
@@ -36,47 +39,48 @@
         </nav>
       </header>
       <div class="lesscontainer">
-        <div class="container-fluid scont">
-            <form action="update" method="post" style="margin: 3em 2em 2em 0;">
-                <div class="row">
-                    <div class="col">
-                        <img src="/img/perfil.png" style="width:8em;" alt="">
+        <div class="container-fluid perfili">
+            <form action="update" method="post" style="margin: 3em 2em 2em 0;;">
+                <div style="margin-left: 2em;">
+                    <div class="row">
+                        <img src="/img/imagen.jpg" style="width:8em;">
                     </div>
-                    <div class="col-10" >
+                    <!-- Cuerpo dividido -->
+                    <div>
                         <div class="row" style="border: solid 1px;">
-                            <div class="col" style="display: flex;">
+                            <div class="col-4" style="display: flex;">
                                 <div style="margin: auto 0 auto 0"><p class="subtitles">Nombre</p>
                                 </div>
                             </div>
-                            <input type="text" class="col-10">
+                            <input type="text" class="col">
                         </div>
                         <div class="row" style="border: solid 1px;">
-                            <div class="col" style="display: flex;">
+                            <div class="col-4" style="display: flex;">
                                 <div style="margin: auto 0 auto 0"><p class="subtitles">Apellido Paterno</p>
                                 </div>
                             </div>
-                            <input type="text" class="col-10">
+                            <input type="text" class="col">
                         </div>
                         <div class="row" style="border: solid 1px;">
-                            <div class="col" style="display: flex;">
+                            <div class="col-4" style="display: flex;">
                                 <div style="margin: auto 0 auto 0"><p class="subtitles">Apellido Materno</p>
                                 </div>
                             </div>
-                            <input type="text" class="col-10">
+                            <input type="text" class="col">
                         </div>
                         <div class="row" style="border: solid 1px;">
-                            <div class="col" style="display: flex;">
+                            <div class="col" style="display: block;">
                                 <div style="margin: auto 0 auto 0"><p class="subtitles">Correo</p>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
+                    <div class="row" style="margin:1em 0 0 0;">
+                        <div class="col-10"><button class="btn" type="submit">Modificar Datos</button></div>
                     </div>
                 </div>
-                <div class="row" style="margin:1em 0 0 0;">
-                    <div class="col"></div>
-                    <div class="col-10"><button class="btn" type="submit">Modificar Datos</button></div>
-                </div>
+
             </form>
 
         </div>
